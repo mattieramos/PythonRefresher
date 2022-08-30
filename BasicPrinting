@@ -1,0 +1,5 @@
+print("Matthew Ramos") #called a print statement. prints a line of code.
+print('o---')
+print('||||')
+print('*' * 10) #called an expression. It's a piece of code that produces a value.
+
