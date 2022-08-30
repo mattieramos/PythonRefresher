@@ -1,0 +1,8 @@
+price = 10 #integer (number without decimal point)
+print('price') #prints "price"
+print(price) #prints the value of price
+price = 20
+print(price) #updating value to price
+rating = 4.9 #Floating point number
+name = 'Matthew' #String
+is_graduated = True #Boolean, false or true needs to be capitalized
