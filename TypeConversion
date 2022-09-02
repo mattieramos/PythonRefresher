@@ -1,3 +1,5 @@
 birth_year = input('Birth year: ')
+print(type(birth_year)) # prints variable type for birth_year
 age = 2022 - int(birth_year) # using int converts string input to int
+print(type(age)) # print variable type for age
 print(age)
