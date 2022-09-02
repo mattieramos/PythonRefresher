@@ -1,0 +1,11 @@
+course = 'Python Refresher'
+print(len(course))                                      #prints length of string #returns 16
+print(course.upper())                                   #returns PYTHON REFRESHER
+print(course)                                           #returns Python Refresher
+print(course.lower())                                   #returns python refresher
+print(course.find('f'))                                 #returns 9
+print(course.find('Refresher'))                         #returns 7
+print(course.replace('Refresher','Refresher for Me'))   #returns Python Refresher for Me
+print(course.replace('P','J'))                          #returns Jython Refresher
+print('python' in course)                               #returns False
+print('Python' in course)                               #returns True
