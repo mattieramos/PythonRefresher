@@ -1,0 +1,8 @@
+x = 10 + 3 * 2 #Multiplication occurs first, then addition. Returns 16 (PEMDAS)
+print(x)
+
+x = 10 + 3 * 2 ** 2
+print (x)   #returns 22
+
+x = (2 + 3) * 10 - 3    #parenthesis takes precedence, then multiplication, then subtraction. Returns 47
+print(x)
