@@ -1,0 +1,19 @@
+print("Matthew's Python Refresher")
+print('Matthews Python "Refresher"') #You can use double or single quotes to add in double or single quotes to string
+print("""
+            This
+            is
+            a 
+            multi 
+            line 
+            string
+            example
+        """) #use three double quotes for multiline strings
+
+Course = 'Python Refresher'
+print(Course[0]) #prints string index 0
+print(Course[-2]) #prints string index -2 (h)
+print(Course[0:3]) #prints string index 0 through 3
+print(Course[4:])
+print(Course[:10])
+print(Course[:]) #prints string in it's entirety
