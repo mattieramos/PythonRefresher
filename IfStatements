@@ -10,3 +10,20 @@ elif is_cold:   #if is_cold condition is true
 else:   #if neither conditions are true
     print("It's a lovely day")
 print("Enjoy your day")
+
+
+
+***EXCERSICE***
+
+price = 1000000
+good_credit = False
+
+
+if good_credit:
+    downpayment = .10 * price
+    print('need 10% of downpayment')
+else:
+    downpayment = .20 * price
+    print('need 20% of downpayment')
+
+print(f'Down payment: ${downpayment}')
