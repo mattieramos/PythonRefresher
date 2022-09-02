@@ -1,0 +1,14 @@
+print(10 / 3) #returns floating point
+print(10 // 3)  #returns whole number
+print(10 % 3)   #returns remainder
+print(10 ** 3)  #returns power
+
+x = 10
+x = x + 3
+print(x) #returns 13
+x = 10
+x += 3
+print(x)  #returns 13
+x = 10
+x -= 3
+print(x)  #returns 7
