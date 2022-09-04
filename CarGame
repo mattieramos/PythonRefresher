@@ -1,0 +1,29 @@
+command = "" #will be user input
+started = False
+#while command != "quit":  ***Better to run while True***
+while True:
+    command = input("> ").lower() #D.R.Y. (Don't Repeat Yourself). Input function returns string. Immediately calling .lower and it will always be lowercase
+    if command == "start":
+        if started:
+            print("Car is already started.")
+        else:
+            started = True
+            print("Car started...")
+    elif command == "stop":
+        if not started:
+            print("Car is already stopped! ")
+        else:
+            started = False
+            print("car stopped.")
+    elif command == "help":
+        print("""
+start - to start the car
+stop - to stop the car
+quit - to quit
+        """)
+    elif command == "quit":
+        print("bye! ")
+        break
+    else:
+        print("Sorry, I don't understand that.")
+
