@@ -1,0 +1,13 @@
+i = 1
+while i <= 5: # will keep running loop while i is less than 5
+    print(i)
+    i = i + 1 #breaks loop by incrementing i each time. Loop stops once i reach 6
+print("done")
+
+print('')
+
+i = 1
+while i <= 5:
+    print('*' * i) #multiplying a string by a number. Repeating a string by multiplying it by a number
+    i = i + 1
+print("done")
