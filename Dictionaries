@@ -1,0 +1,10 @@
+customer = {
+    "name": "John Smith",
+    "age": 30,
+    "is_verified": True
+}
+print(customer["name"]) #key has to have exact sequence of characters being called
+print(customer.get("birthdate"))
+print(customer.get("birthdate", "Jan 1 1980")) #how to update default value for missing key
+customer["birthdate"] = "June 15 1991"
+print(customer["birthdate"])
