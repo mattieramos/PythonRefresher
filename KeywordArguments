@@ -1,0 +1,18 @@
+def greet_user(first_name, last_name):
+    print(f"Hi {first_name} {last_name}!")
+    print("Welcome aboard")
+
+def calc_cost(total, shipping, discount):
+    print(f"""
+Your cost is: 
+{total},
+{shipping},
+{discount}
+""")
+
+print("Start")
+greet_user(last_name ="Smith", first_name="John") #when adding keyword arguments, you don't need to have the arguments in the same order of the parameters
+#most of the time, you still want to use positional arguments, but you can use keyword arguments if needed (before posistional Arguments)
+
+calc_cost(total=50, shipping=5, discount=0.1)
+print("Finish")
