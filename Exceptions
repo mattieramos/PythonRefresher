@@ -1,0 +1,9 @@
+try: #a good python programmer will never let the program crash, we will add exceptions to try to run the program and return value error instead
+    age = int(input('Age:'))
+    income = 20000
+    risk = income / age
+    print(age) #will run if user types integer, but not if user types other variable. With exit codes, 0 means success, 1 means crash
+except ZeroDivisionError:
+    print('Age Cannot be 0.')
+except ValueError:
+    print('Invalid Value')
