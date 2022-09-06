@@ -1,0 +1,15 @@
+class Point:
+    # using the init method we can initialize our objects
+    def __init__(self, x, y):  # we refer to this method as a constructor. It's used to construct or create an object.
+        self.x = x
+        self.y = y
+
+    def move(self):
+        print("move")
+
+    def draw(self):
+        print("draw")
+
+
+point = Point(10, 20)
+print(point.x)
