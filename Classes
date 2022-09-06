@@ -1,0 +1,24 @@
+class Point: # in this class we define new types (move and draw) and with these types we can create new objects
+    def move(self):
+        print("move")
+
+    def draw(self):
+        print("draw")
+
+# an object is an instance of a class, a class simply defines the blueprint or the template for creating objects, and
+# objects are the actual instances based on that blueprint. So we can have tens of hundreds of points on the screen,
+# these are the objects or the instances.
+# So to create an object, we type out the name of our class and then call it like a function
+
+point1 = Point()
+point1.x = 10
+point1.y = 20
+print(point1.x)
+point1.draw()
+
+point2 = Point()
+point2.x = 1
+print(point2.x)
+
+# we use classes to define new types, these types can have methods that we define in the body of the class, and
+# they can also have attributes that we can set anywhere in our programs.
