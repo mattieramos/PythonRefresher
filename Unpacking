@@ -1,0 +1,19 @@
+coordinates = (1, 2, 3)
+#coordinates[0] * coordinates[1] * coordinates[2] ***Code getting too long, see below for better way
+
+# x = coordinates[0]
+# y = coordinates[1]
+# z = coordinates[2]
+
+x, y, z = coordinates #shorthand way of acheiving same result from lines 4-6
+print(x)
+print(y)
+print(z)
+
+print('')
+
+coordinates2 = [1, 2, 3]
+a, b, c = coordinates2 #unpacking works for lists too
+print(a)
+print(b)
+print(c)
