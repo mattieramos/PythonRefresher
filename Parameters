@@ -1,0 +1,9 @@
+def greet_user(first_name, last_name): #always use lowercase letters and adding underscore, and use descriptive wording when naming functions
+    print(f"Hi {first_name} {last_name}!")
+    print("Welcome aboard")
+
+
+print("Start") #whenever adding function, skip to lines after
+greet_user("John", "Smith") #make sure to have variables for all parameters to avoid errors
+greet_user("Mary", "Jane")
+print("Finish")
