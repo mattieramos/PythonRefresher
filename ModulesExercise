@@ -1,0 +1,21 @@
+***FROOM APP.PY***
+
+def find_max(numbers):
+    max = numbers[0]
+    for number in numbers:
+        if number > max:
+            max = number
+    return max
+    
+    
+    
+***FROM UTILS.PY***
+
+
+def find_max(numbers):
+    maximum = numbers[0]
+    for number in numbers:
+        if number > maximum:
+            maximum = number
+    return maximum    
+    
