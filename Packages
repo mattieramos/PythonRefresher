@@ -1,0 +1,16 @@
+#import ecommerce.shipping  # first import approach
+#ecommerce.shipping.calc_shipping()  # everytime want to call functions to this module you have to preface it +
+                                    # with ecommerce.shipping so when working with modules it's better to use the
+                                    # second approach
+
+from ecommerce.shipping import calc_shipping  # 2nd approach
+calc_shipping()
+calc_shipping()
+calc_shipping()
+
+from ecommerce.shipping import calc_shipping, calc_tax # if we want to use multiple functions in this shipping module
+
+
+from ecommerce import shipping  # if you want to import all the functions and classes defined in shipping
+
+shipping.calc_shipping()
