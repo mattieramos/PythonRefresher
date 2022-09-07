@@ -1,0 +1,17 @@
+from pathlib import Path
+
+path = Path("ecommerce")
+print(path.exists())  # checking to see if the ecommerce directory exists
+
+path = Path("emails")
+# print(path.mkdir())  # emails won't exist since we haven't made it, but this will make the directory
+# print(path.rmdir())  # removes the email directory
+
+path = Path()
+for file in path.glob('*.py'):  # iterates through files and prints all files in our directory with .py
+    print(file)
+
+print('')
+
+for file in path.glob('*'):  # prints all directories and files
+    print(file)
