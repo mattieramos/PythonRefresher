@@ -1,0 +1,16 @@
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split #with t_t_s we can easily split our dataset into two sets for training and testing
+from sklearn.metrics import accuracy_score
+
+music_data = pd.read_csv('music.csv')
+X = music_data.drop(columns=['genre'])
+y = music_data['genre']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2) #allocating 20% of our data for testing
+
+model = DecisionTreeClassifier() #  now we have a model, next we need to train it so it learns patterns in the data
+model.fit(X_train, y_train) #training model
+predictions = model.predict(X_test) # adding attributes for predictions based on 21 year old males and 22 year old females
+
+score = accuracy_score(y_test, predictions)
+score
